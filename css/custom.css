@@ -1,0 +1,313 @@
+body {
+  padding-top: 70px;
+  background-color:#fff
+}
+header {
+	position: relative;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+header .container-fluid{
+	background-image: url(../img/bank3.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+		margin-top:-15px;
+}
+.page-header{
+	border-bottom:none;
+	margin-top:0px;
+	
+}
+header .no-bg{ 
+	background-image:none
+}
+.height30{
+	height:30px
+}
+.logo{
+	background-image: url(../img/bankofme_small.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:48px;
+	margin-top:2px;
+}
+.navbar-brand{
+	margin-left:0px!important; 
+	height:52px;
+}
+.home_icon{
+	display:none;
+	padding:15px;
+	background-color:#DBDBDB;
+	font-size:18px;
+}
+.home_icon a{
+	color:#555555
+}
+.nav-menu{
+	width:100%;
+	display: inline-block;
+	background-color: #419AEE;
+	border-bottom: 1px solid #fff;
+}
+.nav-menu li{
+	width: 20%;
+	border-right:1px solid #fff;
+	color: #fff;
+	text-align:center;
+	display: inline-block;
+	padding:5px;
+}
+.nav-menu li a {
+	color:#fff
+}
+.nav-menu li span{
+	color:#fff;
+}
+.nav-menu li span.link_text{
+	display:block;
+}
+.nav-menu li:first-child{
+	border-left:1px solid #fff;
+}
+.nav-menu li:last-child{
+	border-right:1px solid #fff;
+}
+.nav-menu li a{
+	text-decoration:none
+}
+.jumbotron{
+	border-radius:0px!important;
+	width:100%;
+	padding:5px;
+	background: rgba(0, 0, 0, 0.1);
+}
+.jumbotron h1{
+	text-transform: capitalize; 
+	color:#fff; 
+	font-size:30px
+}
+.jumbotron p{
+	font-weight:normal; 
+	font-size:16px
+}
+.jumbotron p.desc{
+	line-height:30px
+}
+.btn-primary{
+	background-color: Transparent;
+	border-color:#fff; 
+	width:230px;
+	border:2px solid #fff; 
+	text-transform:uppercase;
+	font-weight:normal; 
+	font-size:16px
+}
+.btn-primary:hover{
+	background-color: rgba(227, 97, 153, 1);
+	border:2px solid #fff
+}
+.clear_both{clear:both}
+.chat_block{
+	width:100%; 
+	color:#000;
+	border-radius:10px;
+	border:1px solid #dddddd;
+}
+.chat_block .chat_header{
+	background-color:#4DB4A6;
+	height:75px; 
+	color:#fff; 
+	padding:0 10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	line-height:75px;
+}
+.chat_block .chat_header .info_btn{
+	border:1px solid #ffffff;
+	padding:10px;
+	width:auto;
+}
+.chat_block .chat_header .info_btn:hover{
+	background-color:#e36199;
+}
+.margin15{
+	margin-left:15px;
+}
+.size16{
+	font-size:16px;
+}
+.padding10{
+	padding:10px;
+}
+.inline{
+	display:inline-block;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.text_left{
+	text-align:left;
+}
+.text_right{
+	text-align:right;
+}
+.portlet-heading {
+    padding: 0 15px;
+}
+.portlet-heading h4 {
+    padding: 1px 0;
+    font-size: 16px;
+}
+.portlet-heading a {
+    color: #fff;
+}
+.portlet-heading a:hover,
+.portlet-heading a:active,
+.portlet-heading a:focus {
+    outline: none;
+}
+.portlet-widgets .dropdown-menu a {
+    color: #333;
+}
+.portlet-widgets ul.dropdown-menu {
+    min-width: 0;
+}
+.portlet-heading .portlet-title {
+    float: left;
+}
+.portlet-heading .portlet-title h4 {
+    margin: 10px 0;
+}
+.portlet-heading .portlet-widgets {
+    float: right;
+    margin: 8px 0;
+}
+.portlet-heading .portlet-widgets .tabbed-portlets {
+    display: inline;
+}
+.portlet-heading .portlet-widgets .divider {
+    margin: 0 5px;
+}
+.portlet-body {
+    padding: 15px;
+	background: #f0f8ff;
+	color:#777777;
+	border-bottom:1px solid #dddddd;
+}
+.portlet-body .media-heading{
+	color:#333333;
+	font-weight:bold;
+}	
+.portlet-body .media-heading .small{
+	font-size:12px;
+}	
+.portlet-footer {
+    padding: 10px 15px;
+    background: #f6f6f6;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.portlet .portlet-footer ul {
+    margin: 0;
+}
+.portlet-footer form .form_icon{
+	color:#E36199;
+	font-size:16px;
+	padding:13px;
+	background-color:#fff;
+	border:1px solid #E36199;
+}
+
+.portlet-basic,
+.portlet-basic>.portlet-heading {
+    border-color: #333;
+}
+.portlet-basic>.portlet-heading {
+    border-bottom: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+}
+hr.dotted_line{
+	border:none;
+	border-top:1px dotted #b3a9a9;
+	height:1px;
+}
+#chat .send_btn{
+	background-color: rgba(227, 97, 153, 1);
+	border:none;
+	width:150px;
+}    
+.chat-widget::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.chat-widget::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+.chat-widget::-webkit-scrollbar-thumb
+{
+	background-color: Transparent;
+}
+.portlet-footer textarea.form-control{
+	height:40px;
+}
+.send_btn_mobile{
+	display:none;
+	visibility:hidden;
+}
+.mobile{
+	display:none;
+	visibility:hidden;
+}
+@media (max-width:400px){
+.nav-menu li span.link_text {font-size:10px;}
+}
+@media (min-width:768px){
+.home_icon{display:inline-block;}
+}
+@media (max-width:768px){
+.mobile{
+	display:block;
+	visibility:visible;
+}
+.portlet-footer form div.col-sm-1{
+	display:inline-block;
+	margin-bottom:10px;
+	clear:both;
+}
+.portlet-footer textarea.form-control{
+	height:40px;
+	display:inline-block!important;
+	width:50%;
+}
+.portlet-footer .col-sm-6{
+	display:block;
+}
+.send_btn_mobile{
+	display:inline-block;
+		visibility:visible;
+	margin-left:20px;
+	margin-top:-20px;
+}
+.send_btn{
+	display:none
+}
+.jumbotron div.col-md-3{
+	display:block;
+	margin-bottom:10px;
+	width:100%;
+}
+}
